@@ -592,6 +592,6 @@ h5 {
 
     }
     footer {
-    display: none;
+        display: block;
     }
 }
