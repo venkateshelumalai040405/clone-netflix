@@ -640,13 +640,14 @@ h5 {
 
     .ap {
         color: antiquewhite;
-        margin-left: 60px;
+        margin-left: 75px;
         font-style: bolder;
         font-size: 30px;
         font-weight: 900;
         font-family: "Poppins", sans-serif;
         margin-top: 20px;
         margin-bottom: 20px;
+        padding-right: 27px;
     }
 
 
@@ -657,7 +658,7 @@ h5 {
         position: relative;
         justify-content: space-between;
         align-items: center;
-        margin-left: 80px;
+        margin-left: 50px;
         margin-right: 100px;
         margin-top: 20px;
 
@@ -671,7 +672,8 @@ h5 {
         font-family: "Poppins", sans-serif;
         color: white;
         height: 150px;
-        width: 240px;
+        width: 250px;
+        padding-left: 10px;
         background-color: #272728a5;
         border-radius: 10px;
         border: 1px rgb(164, 164, 164) solid;
