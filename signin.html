@@ -11,7 +11,7 @@
         }
 
         .main1 {
-            background-image: url("zgeTuV.jpg");
+            background-image: url("C:\\Users\\VENKATESH\\Desktop\\netflix\\zgeTuV.jpg");
             background-position: center;
             background-size: cover;
             background-attachment: fixed scroll;
@@ -45,11 +45,13 @@
         .signin {
             gap: 10px;
             border: 1px solid black;
-            height: 700px;
+            height: 677px;
+            display: grid;
             width: 450px;
             background-color: rgba(0, 0, 0, 0.5);
             margin-left: 35%;
-
+            justify-content: center;
+            align-items: center;
         }
 
         #Emailaddress,
@@ -202,6 +204,63 @@
 
         option :hover {
             color: rgb(255, 255, 255);
+        }
+
+        @media screen and (max-width:768px) {
+            .homepage {
+                height: 80vh;
+                width: 100%;
+            }
+
+            .logo {
+                height: 70px;
+                width: 100px;
+                position: absolute;
+                left: 10px;
+            }
+
+            h1 {
+                font-size: larger;
+            }
+
+            #Emailaddress,
+            #password {
+                height: 45px;
+                width: 200px;
+                font-size: 20px;
+                border-radius: 5px;
+                border: 2px solid rgb(34, 34, 34);
+                margin-bottom: 20px;
+                background-color: transparent;
+                color: white;
+            }
+
+            #buttons {
+                width: 200px;
+            }
+
+            footer {
+                display: block;
+                margin-left: 50px;
+                gap: 178px;
+                margin-top: 50px;
+            }
+
+
+            .signin {
+                gap: 10px;
+                border: 1px solid black;
+                height: 677px;
+                display: grid;
+                margin-left: 0px;
+                width: 450px;
+                background-color: rgba(0, 0, 0, 0.5);
+                margin-top: 35px;
+                margin-right: 100px;
+                justify-content: center;
+                align-items: center;
+            }
+
         }
     </style>
 </head>
