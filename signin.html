@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .main1 {
+            background-image: url("C:\\Users\\VENKATESH\\Desktop\\netflix\\zgeTuV.jpg");
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed scroll;
+            height: 100vh;
+            width: 100%;
+            position: relative;
+
+        }
+
+        .main1>ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        .logo {
+            height: 110px;
+            width: 180px;
+        }
+
+
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .signin {
+            gap: 10px;
+            border: 1px solid black;
+            height: 700px;
+            width: 450px;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-left: 35%;
+
+        }
+
+        #Emailaddress,
+        #password {
+            height: 45px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 5px;
+            border: 2px solid rgb(34, 34, 34);
+            margin-bottom: 20px;
+            background-color: transparent;
+            color: white;
+        }
+
+        #buttons {
+            height: 40px;
+            width: 300px;
+            background-color: #ff1f1f;
+            color: rgb(255, 255, 255);
+            font-family: "poppins", sans-serif;
+            font-size: 15px;
+            border-radius: 5px;
+            border: 1px solid #ff1f1f;
+            font-weight: bolder;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            color: white;
+            font-style: bold;
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 70px;
+            margin-top: 40px;
+            text-shadow: white;
+        }
+
+        h5 {
+            color: white;
+            text-shadow: white;
+        }
+
+        #clicks {
+            height: 20px;
+            width: 20px;
+            margin-left: 79px;
+        }
+
+        .remember {
+            display: flex;
+        }
+
+        .rem {
+            color: white;
+            font-size: 20px;
+            margin-top: 1px;
+            margin-left: 10px;
+            text-shadow: white;
+        }
+
+        p,
+        .value {
+            color: white;
+            margin-left: 79px;
+            text-shadow: white;
+        }
+
+        .size {
+            size: 3px;
+        }
+
+        footer {
+            display: flex;
+            margin-left: 100px;
+            gap: 178px;
+            margin-top: 50px;
+        }
+
+        .seperate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+
+        .col {
+            position: relative;
+            column-gap: 30px;
+        }
+
+        .col li {
+            row-gap: 20px;
+            margin-top: 10px;
+        }
+
+        a {
+            font-size: 18px;
+            gap: 30px;
+            color: aliceblue;
+            text-shadow: white;
+        }
+
+
+
+        .last {
+            position: relative;
+            color: rgb(164, 164, 164);
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .last1 {
+            margin-top: 30px;
+        }
+
+        .option1 {
+            position: relative;
+            margin: 100px;
+        }
+
+        #value1 {
+            height: 40px;
+            width: 120px;
+            background-color: transparent;
+            font-family: "poppins", sans-serif;
+            font-size: 15px;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid rgb(255, 255, 255);
+            font-weight: bolder;
+            text-shadow: white;
+        }
+
+        h5 {
+            color: white;
+            margin-top: 10px;
+            font-size: 20px;
+            text-shadow: white;
+        }
+
+        .questions {
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+
+        option {
+            color: rgb(0, 0, 0);
+        }
+
+        option :hover {
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main1" id="main1">
+        <ul>
+            <div class="logos">
+                <img class="logo" src="C:\Users\VENKATESH\Desktop\netflix\logo.png" alt="netflix">
+            </div>
+        </ul>
+        <div class="signin">
+            <center>
+                <h1>Sign up</h1>
+                <form action="submit">
+                    <input type="email" name="Emailaddress" id="Emailaddress">
+                    <input type="password" name="password" id="password">
+                    <button type="button" id="buttons">sign up</button>
+                    <h5>OR</h5>
+                    <button type="button" id="buttons">use a sign up in code</button>
+                    <h5>Forget password</h5>
+
+                </form>
+            </center>
+            <div class="remember">
+                <input type="checkbox" name="clicks" id="clicks">
+                <p class="rem">remember me</p>
+            </div>
+            <h4 class="value">New to Netflix? <a href="index.html">Sign up now.</a></h4>
+            <p class="size">This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</p>
+
+        </div>
+    </div>
+    <h5 class="questions">Questions? Call 000-800-919-1743</h5>
+    <footer>
+
+        <div class="col">
+            <ul>
+                <li><a href="http://">FAQ</a></li>
+                <li><a href="http://">Investor Relations</a></li>
+                <li><a href="http://">Privacy</a></li>
+                <li><a href="http://">Speed Test</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><a href="http://">
+                        Help Centre</a></li>
+                <li><a href="http://">Jobs</a></li>
+                <li><a href="http://">Cookie Preferences</a></li>
+                <li><a href="http://">
+                        Legal Notices</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><a href="http://">
+                        Account</a></li>
+                <li><a href="http://">
+                        Ways to Watch</a></li>
+                <li><a href="http://">
+                        Corporate Information</a></li>
+                <li><a href="http://">
+                        Only on Netflix</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><a href="http://">Media Centre</a></li>
+                <li><a href="http://">
+                        Terms of Use</a></li>
+                <li><a href="http://">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <div class="option1">
+        <li>
+            <table>
+                <tr>
+                    <td>
+                        <select id="value1">
+                            <option value="English">English</option>
+                            <option value="Tamil">Tamil</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </li>
+        <div class="last1">
+            <h4 class="last">netflix india</h4>
+        </div>
+    </div>
+</body>
+
+</html>
