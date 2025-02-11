@@ -640,7 +640,7 @@ h5 {
 
     .ap {
         color: antiquewhite;
-        margin-left: 75px;
+        margin-left: 70px;
         font-style: bolder;
         font-size: 30px;
         font-weight: 900;
@@ -652,17 +652,14 @@ h5 {
 
 
 
-    .reason {
+       .reason {
         display: block;
-
         position: relative;
         justify-content: space-between;
         align-items: center;
-        margin-left: 50px;
+        margin-left: 60px;
         margin-right: 100px;
         margin-top: 20px;
-
-
     }
 
     .reason .text h4 {
