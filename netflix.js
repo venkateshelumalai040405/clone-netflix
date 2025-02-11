@@ -52,11 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
         doc.style.display = "block";
         doc2.setAttribute(
           "src",
-          "/Users/VENKATESH/Downloads/multiplication-sign.png"
+          "multiplication-sign.png"
         );
       } else {
         doc.style.display = "none";
-        doc2.setAttribute("src", "/Users/VENKATESH/Downloads/plus.png");
+        doc2.setAttribute("src", "plus.png");
       }
     });
   });
