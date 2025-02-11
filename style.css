@@ -532,6 +532,7 @@ h5 {
 }
 
 @media screen and (max-width:768px) {
+    
     .homepage {
         height: 80vh;
         width: 100%;
@@ -609,6 +610,7 @@ h5 {
 
     footer {
         display: block;
+        margin-left: 30px;
     }
 
     .main2 {
