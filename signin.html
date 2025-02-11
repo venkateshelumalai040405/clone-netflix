@@ -11,7 +11,7 @@
         }
 
         .main1 {
-            background-image: url("zgeTuV.jpg");
+            background-image: url("C:\\Users\\VENKATESH\\Desktop\\netflix\\zgeTuV.jpg");
             background-position: center;
             background-size: cover;
             background-attachment: fixed scroll;
@@ -87,6 +87,7 @@
             margin-left: 70px;
             margin-top: 40px;
             text-shadow: white;
+            font-size: xx-large;
         }
 
         h5 {
@@ -219,8 +220,17 @@
                 left: 10px;
             }
 
-            h1 {
-                font-size: larger;
+
+
+            p,
+            .value {
+                color: white;
+
+                text-shadow: white;
+                text-align: justify;
+                margin-left: 10px;
+                font-size: 10px;
+                margin-right: 100px;
             }
 
             #Emailaddress,
@@ -241,9 +251,10 @@
 
             footer {
                 display: block;
-                margin-left: 50px;
+                margin-left: 10px;
                 gap: 178px;
                 margin-top: 50px;
+
             }
 
 
@@ -261,6 +272,14 @@
                 align-items: center;
             }
 
+            form {
+                margin-right: 100px;
+            }
+
+            .option1 {
+                position: relative;
+                margin: 10px;
+            }
         }
     </style>
 </head>
@@ -269,22 +288,22 @@
     <div class="main1" id="main1">
         <ul>
             <div class="logos">
-                <img class="logo" src="logo.png" alt="netflix">
+                <img class="logo" src="C:\Users\VENKATESH\Desktop\netflix\logo.png" alt="netflix">
             </div>
         </ul>
         <div class="signin">
-            <center>
-                <h1>Sign up</h1>
-                <form action="submit">
-                    <input type="email" name="Emailaddress" id="Emailaddress">
-                    <input type="password" name="password" id="password">
-                    <button type="button" id="buttons">sign up</button>
-                    <h5>OR</h5>
-                    <button type="button" id="buttons">use a sign up in code</button>
-                    <h5>Forget password</h5>
 
-                </form>
-            </center>
+            <h1>Sign up</h1>
+            <form action="submit">
+                <input type="email" name="Emailaddress" id="Emailaddress">
+                <input type="password" name="password" id="password">
+                <button type="button" id="buttons">sign up</button>
+                <h5>OR</h5>
+                <button type="button" id="buttons">use a sign up in code</button>
+                <h5>Forget password</h5>
+
+            </form>
+
             <div class="remember">
                 <input type="checkbox" name="clicks" id="clicks">
                 <p class="rem">remember me</p>
